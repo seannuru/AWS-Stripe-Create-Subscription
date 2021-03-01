@@ -14,6 +14,8 @@ class Config(object):
         # get stripe keys
         Config._conf['STRIPE_PUBLIC_KEY'] = keys['stripe-public']
         Config._conf['STRIPE_SECRET_KEY'] = keys['stripe-secret']
+        # get Product price or plan
+        Config._conf['STRIPE_PRICE_PLAN'] = os.environ['STRIPE_PRICE_PLAN']
 
     @staticmethod
     def conf(name):
