@@ -1,6 +1,6 @@
 ## AWS Lambda function for creating Stripe User Subscription
 
-### User fields comes from Cognito pools in event['request']
+### User fields comes from Cognito pool in event['request']
 
 ### Make sure you have these env variables on AWS lambda 
 
